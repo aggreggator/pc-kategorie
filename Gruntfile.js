@@ -17,6 +17,7 @@ module.exports = function (grunt) {
 
     // Define the configuration for all the tasks
     grunt.initConfig({
+        // bowercopy - run once after yeoman scaffloding: grunt bowercopy
         bowercopy: {
             bootstrap: {
                 options: {

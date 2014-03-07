@@ -1,0 +1,243 @@
+// header
+
+header {
+
+
+    .disclaimer {
+        padding: 10px 10px 10px 30px !important;
+        margin-bottom: 10px;
+        color: #6C6C6C;
+        background: url('http://www.fashionid.de/securemedia/e16fb5e27ce33327b3d1dca10c1136cc4098008565e1222516df75a14eded64b229e944171c0e1d6ef8e511308082b3cbbdc4fbef6b5bfbe5242276ada72063e/sys_master/8971291394078.png/mm_info_new.png') 0 50% no-repeat;
+
+        a {
+            color: rgb(108, 108, 108);
+            text-decoration: underline;
+        }
+    }
+
+    .background-bar {
+
+    }
+
+    .puc-box {
+        border: 1px solid #eaeaea;
+        border-bottom: none;
+        padding: 5px 12px 8px 11px;
+        background-color: #fff;
+        position: relative;
+        top: -8px;
+        left: -11px;
+        width: 176px;
+
+
+        &:before {
+            content: " ";
+            position: fixed;
+            margin-left: -50%;
+            margin-right: -50%;
+            height: 30px;
+            background-color: #eaeaea;
+            width: 200%;
+            z-index: -1;
+        }
+
+        .title {
+            display: block;
+            color: #999999;
+            text-transform: uppercase;
+            font-size: 10px;
+            letter-spacing: normal;
+            text-align: left;
+            line-height: 15px;
+        }
+
+        .logo {
+            margin-bottom: -16px;
+        }
+    }
+}
+
+
+
+
+
+
+.super-bar {
+    @include clearfix();
+    position: relative;
+    top: -38px;
+    margin-left: 140px;
+    margin-bottom: 30px;
+
+    > li {
+        float: left;
+        text-transform: uppercase;
+        list-style: none;
+        color: #999999;
+        font-size: 10px;
+        margin-right: 3px;
+
+        &.super-bar--icon {
+            margin-top: -1px;
+        }
+
+        > a {
+            display: block;
+            height: 30px;
+        }
+    }
+}
+
+
+
+
+.SuperBarIcon {
+    margin-top: -1px;
+}
+
+#SuperBar .SuperBarIcon:last-child {
+    margin: -1px 0 0 0;
+}
+
+.super-bar .super-bar--entry a {
+    background-position: right;
+    background-repeat: no-repeat;
+    padding: 8px 42px 3px 2px;
+}
+
+.super-bar--entry__rueckgabe > a {
+    background-image: url('http://fashionid.de/securemedia/992a96de8d060f30ebfd0a5c56cde7e061fd576256198a3d8de78da7e1e4a1688ae86d52bdb9dddb8975d3b4e02bd257c75cfc3519fefbb189baed58c5d10194/sys_master/8970833264670.png/mm_sixty.png');
+}
+
+.super-bar--entry__versand > a {
+    background-image: url('http://fashionid.de/securemedia/f7837a18916f01519d2ce9edffeba5017b95dbb308976c7efb6515539ad9dadd809371531cb52ed4909a75a4f0f4fa007a49ac321c75ece91df7d91488d449d3/sys_master/8970832936990.png/mm_move.png');
+}
+
+
+
+.super-bar--entry__hotline > a {
+    background-image: url('http://fashionid.de/securemedia/7392fe93598c75b1ca3044a611328d267fc316c52ea8c316c6c0b214bc044f5017fead6396a067c25ccf4f25ec2d0c6fa7b9105d452c596b623eb7fb5c9bcd1d/sys_master/8970833395742.png/mm_phone.png');
+}
+/*
+#backgroundBar {
+    height: 30px;
+    background-color: #eaeaea;
+    width: 100%;
+    position: absolute;
+    top: 61px;
+}
+
+#LinkBar {
+    position: absolute;
+    display: inline-block;
+    right: 0px;
+    top: 96px;
+    letter-spacing: normal;
+    word-spacing: normal;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+#LinkBar li, #LinkBar a {
+    color: #002C65;
+    display: inline-block;
+    list-style: none;
+}
+
+#LinkBar li:first-child ~ li:before {
+    margin-right: 4px;
+    content: '|';
+}
+
+.PageContainer > div.Header form.Search {
+    margin-right: -153px;
+    top: 112px !important;
+    right: 50%;
+}
+
+.StandardCMSImage.component-header-fashionid-image {
+    position: absolute;
+    top: 109px;
+    cursor: pointer;
+}
+
+.PageContainer > .Header .Breadcrumbs {
+    top: 200px;
+}
+
+.MyAccount, .MyStyle {
+    display: none !important;
+}
+
+.MyCart {
+    position: relative;
+    top: -80px;
+}
+
+.PageContainer > .Header {
+    height: 210px;
+}
+
+.Header .BackToShop {
+    top: 130px !important;
+}
+
+.PageContainer > div.Header .header-menu {
+    top: 160px !important;
+    */
+/*border-top: 5px solid #002c65;*//*
+
+}
+
+// second
+
+.SaleLink span {
+    color: #c50000;
+}
+
+.ActionBar {
+    background: #002C65 !important;
+}
+
+.StandardCMSParagraph.component-header-disclaimer {
+    font-size: 12px !important;
+    line-height: 15px !important;
+    padding: 4px 0 !important;
+    color: #6c6c6c;
+}
+
+.StandardCMSParagraph.component-header-disclaimer > a {
+    color: #6c6c6c;
+}
+
+.StandardCMSParagraph.component-header-trusted-shop a span img {
+    top: 19px !important;
+}
+
+.PageContainer > .Header .MyAccount {
+    top: 73px !important;
+}
+
+.PageContainer > .Header .Search {
+    top: 95px !important;
+}
+
+.PageContainer > .Header .MyStyle {
+    top: 142px !important;
+}
+
+.PageContainer > .Header .MyCart .LinkCart {
+    top: 134px !important;
+}
+
+.PageContainer > .Header .header-menu {
+    top: 142px !important;
+}
+
+.BackToShop {
+    top: 79px !important;
+}
+
+.MiniCart {
+    top: 170px !important;
+}*/

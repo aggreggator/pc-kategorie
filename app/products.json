@@ -1,0 +1,33 @@
+{
+    "name": "SOME NAME",
+    "favorite_food": 1,
+    "products": [
+        {
+            "ArticleURL": "../../selected-homme/herren-t-shirt-mit-v-ausschnitt-8877392_10/",
+            "New": false,
+            "Brand": "Review",
+            "Description": "Jeansjacke mit Kapuze 1",
+            "PriceSale": "79,95 €",
+            "PriceRegular": "89,95 €",
+            "PricePercentage": "-50%"
+        },
+        {
+            "ArticleURL": "../../selected-homme/herren-t-shirt-mit-v-ausschnitt-8877392_10/",
+            "New": false,
+            "Brand": "Review",
+            "Description": "Jeansjacke mit Kapuze 2",
+            "PriceSale": "79,95 €",
+            "PriceRegular": "89,95 €",
+            "PricePercentage": "-50%"
+        },
+        {
+            "ArticleURL": "../../selected-homme/herren-t-shirt-mit-v-ausschnitt-8877392_10/",
+            "New": false,
+            "Brand": "Review",
+            "Description": "Jeansjacke mit Kapuze 3",
+            "PriceSale": "79,95 €",
+            "PriceRegular": "89,95 €",
+            "PricePercentage": "-50%"
+        }
+    ]
+}
