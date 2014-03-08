@@ -1,0 +1,51 @@
+.navbar-puc {
+    background-color: transparent;
+    border: 0;
+    margin-left: -$grid-gutter-width/2;
+    margin-right: -$grid-gutter-width/2;
+    min-height: 0;
+
+    .navbar-collapse {
+
+        @media (min-width: $grid-float-breakpoint) {
+            padding-left: 0;
+            padding-right: 0;
+        }
+    }
+
+    .nav > li > a {
+        font-size: 16px;
+        text-transform: uppercase;
+        cursor: pointer;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-right: 30px;
+
+        @media (min-width: $grid-float-breakpoint) {
+            padding-left: 0;
+        }
+
+        &:hover {
+            background-color: transparent;
+            color: #FF5C0B;
+        }
+    }
+
+    .navbar-nav > .open > a,
+    .navbar-nav > .open > a:hover,
+    .navbar-nav > .open > a:focus {
+        background-color: transparent;
+        color: #FF5C0B;
+    }
+}
+
+.breadcrumb {
+    padding: 0;
+    margin-bottom: 16px;
+    background-color: transparent;
+
+    a,
+    & > .active {
+        color: #666;
+    }
+}
