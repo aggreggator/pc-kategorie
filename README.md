@@ -25,16 +25,16 @@ Jetzt fehlen nur noch die bower-components
 ```sh
 bower install
 ```
-Jetzt sollten alle benötogten Pakete vorhanden sein.
+Jetzt sollten alle benötigten Pakete vorhanden sein.
 
 Mit dem folgenden Kommando kann ein preview server gestartet werden.
 ```sh
 grunt serve
 ```
-Vorgenommene Änderungen an Dateien werden durch einen grunt Task beobachtet,Bedarf neu generiert und der Browser wird durch Live-Reload aktualisiert.
+Vorgenommene Änderungen an Dateien werden durch einen grunt Task beobachtet, bei Bedarf neu generiert und der Browser wird durch Live-Reload aktualisiert.
 
 Um Produktions-Daten zu erhalten nutzt man folgendes Kommando:
 ```sh
 grunt build
 ```
-Im Verzeichnis "dist" werden die ProduktionDaten abgelegt.
+Im Verzeichnis "dist" werden die Produktions-Daten abgelegt.
