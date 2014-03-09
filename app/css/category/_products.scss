@@ -1,0 +1,17 @@
+.category-product {
+
+
+
+    .wrap {
+        border: 1px solid #999;
+//        background-color: #ccc;
+        padding: 10px;
+        margin-bottom: $grid-gutter-width;
+    }
+
+    .product-image {
+        @include img-responsive();
+        max-width: none;
+        width: 100%;
+    }
+}

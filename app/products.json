@@ -1,6 +1,16 @@
 {
-    "name": "SOME NAME",
-    "favorite_food": 1,
+    "category-name": "Jacken",
+    "category-promote": [
+        {
+            "category-promote-name": "Outdoorjacken"
+        },
+        {
+            "category-promote-name": "Lederjacken"
+        },
+        {
+            "category-promote-name": "Steppjacken"
+        }
+    ],
     "products": [
         {
             "ArticleURL": "../../selected-homme/herren-t-shirt-mit-v-ausschnitt-8877392_10/",
@@ -9,7 +19,10 @@
             "Description": "Jeansjacke mit Kapuze 1",
             "PriceSale": "79,95 €",
             "PriceRegular": "89,95 €",
-            "PricePercentage": "-50%"
+            "PricePercentage": "-50%",
+            "Image-Original": "http://www.fashionid.de/media/964/goosecraft-lederjacke-mit-reissverschluss-applikation-schwarz-8958989238302f0ec0f0.png",
+            "Image-Alt": "GOOSECRAFT Lederjacke mit Reißverschluss-Applikation",
+            "Image-Hover": "http://www.fashionid.de/media/855/goosecraft-lederjacke-mit-reissverschluss-applikation-schwarz-8958989565982f0ec0f0.jpg"
         },
         {
             "ArticleURL": "../../selected-homme/herren-t-shirt-mit-v-ausschnitt-8877392_10/",
@@ -18,7 +31,88 @@
             "Description": "Jeansjacke mit Kapuze 2",
             "PriceSale": "79,95 €",
             "PriceRegular": "89,95 €",
-            "PricePercentage": "-50%"
+            "PricePercentage": "-50%",
+            "Image-Original": "http://www.fashionid.de/media/544/gipsy-lederjacke-im-biker-look-schwarz-8954098941982f0ec0f0.png"
+        },
+        {
+            "ArticleURL": "../../selected-homme/herren-t-shirt-mit-v-ausschnitt-8877392_10/",
+            "New": false,
+            "Brand": "Review",
+            "Description": "Jeansjacke mit Kapuze 1",
+            "PriceSale": "79,95 €",
+            "PriceRegular": "89,95 €",
+            "PricePercentage": "-50%",
+            "Image-Original": "http://www.fashionid.de/media/221/wellensteyn-schneezauber-jacke-aus-wetterbestaendigem-material-schwarz-8935387299870f0ec0f0.png"
+        },
+        {
+            "ArticleURL": "../../selected-homme/herren-t-shirt-mit-v-ausschnitt-8877392_10/",
+            "New": false,
+            "Brand": "Review",
+            "Description": "Jeansjacke mit Kapuze 2",
+            "PriceSale": "79,95 €",
+            "PriceRegular": "89,95 €",
+            "PricePercentage": "-50%",
+            "Image-Original": "http://www.fashionid.de/media/411/gipsy-lederjacke-mit-stehkragen-stein-8955750055966f0ec0f0.png"
+        },
+        {
+            "ArticleURL": "../../selected-homme/herren-t-shirt-mit-v-ausschnitt-8877392_10/",
+            "New": false,
+            "Brand": "Review",
+            "Description": "Jeansjacke mit Kapuze 1",
+            "PriceSale": "79,95 €",
+            "PriceRegular": "89,95 €",
+            "PricePercentage": "-50%",
+            "Image-Original": "http://www.fashionid.de/media/221/wellensteyn-schneezauber-jacke-aus-wetterbestaendigem-material-schwarz-8935387299870f0ec0f0.png"
+        },
+        {
+            "ArticleURL": "../../selected-homme/herren-t-shirt-mit-v-ausschnitt-8877392_10/",
+            "New": false,
+            "Brand": "Review",
+            "Description": "Jeansjacke mit Kapuze 2",
+            "PriceSale": "79,95 €",
+            "PriceRegular": "89,95 €",
+            "PricePercentage": "-50%",
+            "Image-Original": "http://www.fashionid.de/media/810/khujo-jacke-mit-beschichtetem-aermel-besatz-marineblau-8974106624030f0ec0f0.png"
+        },
+        {
+            "ArticleURL": "../../selected-homme/herren-t-shirt-mit-v-ausschnitt-8877392_10/",
+            "New": false,
+            "Brand": "Review",
+            "Description": "Jeansjacke mit Kapuze 1",
+            "PriceSale": "79,95 €",
+            "PriceRegular": "89,95 €",
+            "PricePercentage": "-50%",
+            "Image-Original": "http://www.fashionid.de/media/728/review-jeansjacke-mit-kapuze-jeans-8964248829982f0ec0f0.png"
+        },
+        {
+            "ArticleURL": "../../selected-homme/herren-t-shirt-mit-v-ausschnitt-8877392_10/",
+            "New": false,
+            "Brand": "Review",
+            "Description": "Jeansjacke mit Kapuze 2",
+            "PriceSale": "79,95 €",
+            "PriceRegular": "89,95 €",
+            "PricePercentage": "-50%",
+            "Image-Original": "http://www.fashionid.de/media/221/wellensteyn-schneezauber-jacke-aus-wetterbestaendigem-material-schwarz-8935387299870f0ec0f0.png"
+        },
+        {
+            "ArticleURL": "../../selected-homme/herren-t-shirt-mit-v-ausschnitt-8877392_10/",
+            "New": false,
+            "Brand": "Review",
+            "Description": "Jeansjacke mit Kapuze 1",
+            "PriceSale": "79,95 €",
+            "PriceRegular": "89,95 €",
+            "PricePercentage": "-50%",
+            "Image-Original": "http://www.fashionid.de/media/728/review-jeansjacke-mit-kapuze-jeans-8964248829982f0ec0f0.png"
+        },
+        {
+            "ArticleURL": "../../selected-homme/herren-t-shirt-mit-v-ausschnitt-8877392_10/",
+            "New": false,
+            "Brand": "Review",
+            "Description": "Jeansjacke mit Kapuze 2",
+            "PriceSale": "79,95 €",
+            "PriceRegular": "89,95 €",
+            "PricePercentage": "-50%",
+            "Image-Original": "http://www.fashionid.de/media/221/wellensteyn-schneezauber-jacke-aus-wetterbestaendigem-material-schwarz-8935387299870f0ec0f0.png"
         },
         {
             "ArticleURL": "../../selected-homme/herren-t-shirt-mit-v-ausschnitt-8877392_10/",
@@ -27,7 +121,18 @@
             "Description": "Jeansjacke mit Kapuze 3",
             "PriceSale": "79,95 €",
             "PriceRegular": "89,95 €",
-            "PricePercentage": "-50%"
+            "PricePercentage": "-50%",
+            "Image-Original": "http://www.fashionid.de/media/221/wellensteyn-schneezauber-jacke-aus-wetterbestaendigem-material-schwarz-8935387299870f0ec0f0.png"
+        },
+        {
+            "ArticleURL": "../../selected-homme/herren-t-shirt-mit-v-ausschnitt-8877392_10/",
+            "New": false,
+            "Brand": "Review",
+            "Description": "Jeansjacke mit Kapuze 2",
+            "PriceSale": "79,95 €",
+            "PriceRegular": "89,95 €",
+            "PricePercentage": "-50%",
+            "Image-Original": "http://www.fashionid.de/media/544/gipsy-lederjacke-im-biker-look-schwarz-8954098941982f0ec0f0.png"
         }
     ]
 }

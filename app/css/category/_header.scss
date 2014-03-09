@@ -1,0 +1,30 @@
+.category-header {
+    background-color: #eaeaea;
+    text-align: center;
+    padding: 30px 0 20px;
+    margin-bottom: $grid-gutter-width;
+
+    h2 {
+        color: #000;
+        font-size: 50px;
+        font-weight: 100;
+
+    }
+
+    .category-links {
+        margin-top: 40px;
+        color: #000;
+
+        a {
+            color: #000;
+            text-decoration: underline;
+            font-size: 14px;
+            display: inline-block;
+            padding: 0 10px;
+
+            &:hover {
+                color: #666;
+            }
+        }
+    }
+}

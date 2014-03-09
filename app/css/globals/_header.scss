@@ -167,6 +167,9 @@ header {
 
         width: 100%;
         text-align: right;
+        @include transition-property(top,margin-bottom);
+        @include transition-duration(1s);
+        @include transition-timing-function(ease-in);
 
 
         @media (min-width: $screen-md-min) and (max-width: $screen-md-max) {

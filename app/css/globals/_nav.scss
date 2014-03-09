@@ -4,6 +4,11 @@
     margin-left: -$grid-gutter-width/2;
     margin-right: -$grid-gutter-width/2;
     min-height: 0;
+    margin-bottom: 50px;
+
+    @media (max-width: $grid-float-breakpoint) {
+        margin-bottom: 0;
+    }
 
     .navbar-collapse {
 
@@ -19,10 +24,15 @@
         cursor: pointer;
         padding-top: 5px;
         padding-bottom: 5px;
-        padding-right: 30px;
+        padding-right: 25px;
 
         @media (min-width: $grid-float-breakpoint) {
             padding-left: 0;
+        }
+
+        &.sale,
+        &.sale:hover {
+            color: #C50000;
         }
 
         &:hover {
@@ -40,12 +50,40 @@
 }
 
 .breadcrumb {
+    position: absolute;
+    top: 40px;
     padding: 0;
     margin-bottom: 16px;
+    text-transform: uppercase;
     background-color: transparent;
+    @include transition-property(top);
+    @include transition-duration(1s);
+    @include transition-timing-function(ease-in);
+
+    @media (max-width: $grid-float-breakpoint) {
+        top: 20px;
+    }
+
+//    @media (max-width: $screen-xs-min) {
+//        top: 30px;
+//    }
 
     a,
     & > .active {
         color: #666;
+    }
+}
+
+.nav-footer {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+
+
+    ul {
+        list-style-type: none;
+        margin: 0 0 5px 0;
+        padding: 0;
     }
 }
