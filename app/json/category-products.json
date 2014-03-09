@@ -25,7 +25,25 @@
             "PricePercentage": "",
             "ImageOriginal": "http://www.fashionid.de/media/964/goosecraft-lederjacke-mit-reissverschluss-applikation-schwarz-8958989238302f0ec0f0.png",
             "ImageAlt": "GOOSECRAFT Lederjacke mit Reißverschluss-Applikation",
-            "ImageHover": "http://www.fashionid.de/media/855/goosecraft-lederjacke-mit-reissverschluss-applikation-schwarz-8958989565982f0ec0f0.jpg"
+            "ImageHover": "http://www.fashionid.de/media/855/goosecraft-lederjacke-mit-reissverschluss-applikation-schwarz-8958989565982f0ec0f0.jpg",
+            "Stars": "4",
+            "ColorSwatches": [
+                {
+                    "ColorSwatchLink": "http://www.fashionid.de/wellensteyn/damen-leichte-jacke-mit-taillenguertel-8971147_10/",
+                    "ColorSwatchImage": "http://www.fashionid.de/media/083/wellensteyn-leichte-jacke-mit-taillenguertel-cognac-8963930587166f013013.jpg",
+                    "ColorSwatchImageAlt": "Cognac"
+                },
+                {
+                    "ColorSwatchLink": "http://www.fashionid.de/wellensteyn/damen-leichte-jacke-mit-taillenguertel-8971145_10/",
+                    "ColorSwatchImage": "http://www.fashionid.de/media/382/wellensteyn-leichte-jacke-mit-taillenguertel-hellblau-8960021757982f013013.jpg",
+                    "ColorSwatchImageAlt": "Hellblau"
+                },
+                {
+                    "ColorSwatchLink": "http://www.fashionid.de/wellensteyn/damen-leichte-jacke-mit-taillenguertel-8971148_10/",
+                    "ColorSwatchImage": "http://www.fashionid.de/media/404/wellensteyn-leichte-jacke-mit-taillenguertel-olivgruen-8963930980382f013013.jpg",
+                    "ColorSwatchImageAlt": "Olivgrün"
+                }
+            ]
         },
         {
             "ArticleURL": "../../selected-homme/herren-t-shirt-mit-v-ausschnitt-8877392_10/",
@@ -66,107 +84,356 @@
                     "ColorSwatchImageAlt": "Olivgrün"
                 }
             ]
-
+        },
+        {
+            "ArticleURL": "../../selected-homme/herren-t-shirt-mit-v-ausschnitt-8877392_10/",
+            "New": false,
+            "Brand": "Review",
+            "Description": "Stone Washed Jeansjacke mit Stretch-Anteil",
+            "PriceRegular": "239,95 €",
+            "PriceSale": "",
+            "PricePercentage": "",
+            "ImageOriginal": "http://www.fashionid.de/media/964/goosecraft-lederjacke-mit-reissverschluss-applikation-schwarz-8958989238302f0ec0f0.png",
+            "ImageAlt": "GOOSECRAFT Lederjacke mit Reißverschluss-Applikation",
+            "ImageHover": "http://www.fashionid.de/media/855/goosecraft-lederjacke-mit-reissverschluss-applikation-schwarz-8958989565982f0ec0f0.jpg",
+            "Stars": "4",
+            "ColorSwatches": [
+                {
+                    "ColorSwatchLink": "http://www.fashionid.de/wellensteyn/damen-leichte-jacke-mit-taillenguertel-8971147_10/",
+                    "ColorSwatchImage": "http://www.fashionid.de/media/083/wellensteyn-leichte-jacke-mit-taillenguertel-cognac-8963930587166f013013.jpg",
+                    "ColorSwatchImageAlt": "Cognac"
+                },
+                {
+                    "ColorSwatchLink": "http://www.fashionid.de/wellensteyn/damen-leichte-jacke-mit-taillenguertel-8971145_10/",
+                    "ColorSwatchImage": "http://www.fashionid.de/media/382/wellensteyn-leichte-jacke-mit-taillenguertel-hellblau-8960021757982f013013.jpg",
+                    "ColorSwatchImageAlt": "Hellblau"
+                },
+                {
+                    "ColorSwatchLink": "http://www.fashionid.de/wellensteyn/damen-leichte-jacke-mit-taillenguertel-8971148_10/",
+                    "ColorSwatchImage": "http://www.fashionid.de/media/404/wellensteyn-leichte-jacke-mit-taillenguertel-olivgruen-8963930980382f013013.jpg",
+                    "ColorSwatchImageAlt": "Olivgrün"
+                }
+            ]
+        },
+        {
+            "ArticleURL": "../../selected-homme/herren-t-shirt-mit-v-ausschnitt-8877392_10/",
+            "New": false,
+            "Brand": "Wellensteyn",
+            "Description": "Jeansjacke mit Kapuze 2",
+            "PriceRegular": "129,95 €",
+            "PriceSale": "",
+            "PricePercentage": "",
+            "ImageOriginal": "http://www.fashionid.de/media/898/wellensteyn-leichte-jacke-mit-taillenguertel-bordeaux-rot-8963929931806f0ec0f0.png",
+            "ImageAlt": "GOOSECRAFT Lederjacke mit Reißverschluss-Applikation",
+            "ImageHover": "http://www.fashionid.de/media/007/wellensteyn-leichte-jacke-mit-taillenguertel-bordeaux-rot-8963930259486f0ec0f0.jpg",
+            "Stars": "4",
+            "ColorSwatches": [
+                {
+                    "ColorSwatchLink": "http://www.fashionid.de/wellensteyn/damen-leichte-jacke-mit-taillenguertel-8971146_10/",
+                    "ColorSwatchImage": "http://www.fashionid.de/media/427/wellensteyn-leichte-jacke-mit-taillenguertel-anthrazit-8960021364766f013013.jpg",
+                    "ColorSwatchImageAlt": "Bordeaux Rot"
+                },
+                {
+                    "ColorSwatchLink": "http://www.fashionid.de/wellensteyn/damen-leichte-jacke-mit-taillenguertel-8971144_10/",
+                    "ColorSwatchImage": "http://www.fashionid.de/media/427/wellensteyn-leichte-jacke-mit-taillenguertel-anthrazit-8960021364766f013013.jpg",
+                    "ColorSwatchImageAlt": "Anthrazit"
+                },
+                {
+                    "ColorSwatchLink": "http://www.fashionid.de/wellensteyn/damen-leichte-jacke-mit-taillenguertel-8971147_10/",
+                    "ColorSwatchImage": "http://www.fashionid.de/media/083/wellensteyn-leichte-jacke-mit-taillenguertel-cognac-8963930587166f013013.jpg",
+                    "ColorSwatchImageAlt": "Cognac"
+                },
+                {
+                    "ColorSwatchLink": "http://www.fashionid.de/wellensteyn/damen-leichte-jacke-mit-taillenguertel-8971145_10/",
+                    "ColorSwatchImage": "http://www.fashionid.de/media/382/wellensteyn-leichte-jacke-mit-taillenguertel-hellblau-8960021757982f013013.jpg",
+                    "ColorSwatchImageAlt": "Hellblau"
+                },
+                {
+                    "ColorSwatchLink": "http://www.fashionid.de/wellensteyn/damen-leichte-jacke-mit-taillenguertel-8971148_10/",
+                    "ColorSwatchImage": "http://www.fashionid.de/media/404/wellensteyn-leichte-jacke-mit-taillenguertel-olivgruen-8963930980382f013013.jpg",
+                    "ColorSwatchImageAlt": "Olivgrün"
+                }
+            ]
+        },
+        {
+            "ArticleURL": "../../selected-homme/herren-t-shirt-mit-v-ausschnitt-8877392_10/",
+            "New": false,
+            "Brand": "Review",
+            "Description": "Jeansjacke mit Kapuze 1",
+            "PriceRegular": "189,95 €",
+            "PriceSale": "",
+            "PricePercentage": "",
+            "ImageOriginal": "http://www.fashionid.de/media/964/goosecraft-lederjacke-mit-reissverschluss-applikation-schwarz-8958989238302f0ec0f0.png",
+            "ImageAlt": "GOOSECRAFT Lederjacke mit Reißverschluss-Applikation",
+            "ImageHover": "http://www.fashionid.de/media/855/goosecraft-lederjacke-mit-reissverschluss-applikation-schwarz-8958989565982f0ec0f0.jpg",
+            "Stars": "4",
+            "ColorSwatches": [
+                {
+                    "ColorSwatchLink": "http://www.fashionid.de/wellensteyn/damen-leichte-jacke-mit-taillenguertel-8971147_10/",
+                    "ColorSwatchImage": "http://www.fashionid.de/media/083/wellensteyn-leichte-jacke-mit-taillenguertel-cognac-8963930587166f013013.jpg",
+                    "ColorSwatchImageAlt": "Cognac"
+                },
+                {
+                    "ColorSwatchLink": "http://www.fashionid.de/wellensteyn/damen-leichte-jacke-mit-taillenguertel-8971145_10/",
+                    "ColorSwatchImage": "http://www.fashionid.de/media/382/wellensteyn-leichte-jacke-mit-taillenguertel-hellblau-8960021757982f013013.jpg",
+                    "ColorSwatchImageAlt": "Hellblau"
+                },
+                {
+                    "ColorSwatchLink": "http://www.fashionid.de/wellensteyn/damen-leichte-jacke-mit-taillenguertel-8971148_10/",
+                    "ColorSwatchImage": "http://www.fashionid.de/media/404/wellensteyn-leichte-jacke-mit-taillenguertel-olivgruen-8963930980382f013013.jpg",
+                    "ColorSwatchImageAlt": "Olivgrün"
+                }
+            ]
+        },
+        {
+            "ArticleURL": "../../selected-homme/herren-t-shirt-mit-v-ausschnitt-8877392_10/",
+            "New": false,
+            "Brand": "Wellensteyn",
+            "Description": "Leichte Jacke aus wetterbeständigem Material",
+            "PriceRegular": "329,95 €",
+            "PriceSale": "289,95 €",
+            "PricePercentage": "10%",
+            "ImageOriginal": "http://www.fashionid.de/media/898/wellensteyn-leichte-jacke-mit-taillenguertel-bordeaux-rot-8963929931806f0ec0f0.png",
+            "ImageAlt": "GOOSECRAFT Lederjacke mit Reißverschluss-Applikation",
+            "ImageHover": "http://www.fashionid.de/media/007/wellensteyn-leichte-jacke-mit-taillenguertel-bordeaux-rot-8963930259486f0ec0f0.jpg",
+            "Stars": "4",
+            "ColorSwatches": [
+                {
+                    "ColorSwatchLink": "http://www.fashionid.de/wellensteyn/damen-leichte-jacke-mit-taillenguertel-8971146_10/",
+                    "ColorSwatchImage": "http://www.fashionid.de/media/427/wellensteyn-leichte-jacke-mit-taillenguertel-anthrazit-8960021364766f013013.jpg",
+                    "ColorSwatchImageAlt": "Bordeaux Rot"
+                },
+                {
+                    "ColorSwatchLink": "http://www.fashionid.de/wellensteyn/damen-leichte-jacke-mit-taillenguertel-8971144_10/",
+                    "ColorSwatchImage": "http://www.fashionid.de/media/427/wellensteyn-leichte-jacke-mit-taillenguertel-anthrazit-8960021364766f013013.jpg",
+                    "ColorSwatchImageAlt": "Anthrazit"
+                },
+                {
+                    "ColorSwatchLink": "http://www.fashionid.de/wellensteyn/damen-leichte-jacke-mit-taillenguertel-8971147_10/",
+                    "ColorSwatchImage": "http://www.fashionid.de/media/083/wellensteyn-leichte-jacke-mit-taillenguertel-cognac-8963930587166f013013.jpg",
+                    "ColorSwatchImageAlt": "Cognac"
+                },
+                {
+                    "ColorSwatchLink": "http://www.fashionid.de/wellensteyn/damen-leichte-jacke-mit-taillenguertel-8971145_10/",
+                    "ColorSwatchImage": "http://www.fashionid.de/media/382/wellensteyn-leichte-jacke-mit-taillenguertel-hellblau-8960021757982f013013.jpg",
+                    "ColorSwatchImageAlt": "Hellblau"
+                },
+                {
+                    "ColorSwatchLink": "http://www.fashionid.de/wellensteyn/damen-leichte-jacke-mit-taillenguertel-8971148_10/",
+                    "ColorSwatchImage": "http://www.fashionid.de/media/404/wellensteyn-leichte-jacke-mit-taillenguertel-olivgruen-8963930980382f013013.jpg",
+                    "ColorSwatchImageAlt": "Olivgrün"
+                }
+            ]
         },
         {
             "ArticleURL": "../../selected-homme/herren-t-shirt-mit-v-ausschnitt-8877392_10/",
             "New": true,
             "Brand": "Review",
             "Description": "Jeansjacke mit Kapuze 1",
-            "PriceRegular": "89,95 €",
+            "PriceRegular": "189,95 €",
             "PriceSale": "",
             "PricePercentage": "",
-            "ImageOriginal": "http://www.fashionid.de/media/221/wellensteyn-schneezauber-jacke-aus-wetterbestaendigem-material-schwarz-8935387299870f0ec0f0.png"
+            "ImageOriginal": "http://www.fashionid.de/media/964/goosecraft-lederjacke-mit-reissverschluss-applikation-schwarz-8958989238302f0ec0f0.png",
+            "ImageAlt": "GOOSECRAFT Lederjacke mit Reißverschluss-Applikation",
+            "ImageHover": "http://www.fashionid.de/media/855/goosecraft-lederjacke-mit-reissverschluss-applikation-schwarz-8958989565982f0ec0f0.jpg",
+            "Stars": "4",
+            "ColorSwatches": [
+                {
+                    "ColorSwatchLink": "http://www.fashionid.de/wellensteyn/damen-leichte-jacke-mit-taillenguertel-8971147_10/",
+                    "ColorSwatchImage": "http://www.fashionid.de/media/083/wellensteyn-leichte-jacke-mit-taillenguertel-cognac-8963930587166f013013.jpg",
+                    "ColorSwatchImageAlt": "Cognac"
+                },
+                {
+                    "ColorSwatchLink": "http://www.fashionid.de/wellensteyn/damen-leichte-jacke-mit-taillenguertel-8971145_10/",
+                    "ColorSwatchImage": "http://www.fashionid.de/media/382/wellensteyn-leichte-jacke-mit-taillenguertel-hellblau-8960021757982f013013.jpg",
+                    "ColorSwatchImageAlt": "Hellblau"
+                },
+                {
+                    "ColorSwatchLink": "http://www.fashionid.de/wellensteyn/damen-leichte-jacke-mit-taillenguertel-8971148_10/",
+                    "ColorSwatchImage": "http://www.fashionid.de/media/404/wellensteyn-leichte-jacke-mit-taillenguertel-olivgruen-8963930980382f013013.jpg",
+                    "ColorSwatchImageAlt": "Olivgrün"
+                }
+            ]
         },
         {
             "ArticleURL": "../../selected-homme/herren-t-shirt-mit-v-ausschnitt-8877392_10/",
             "New": false,
-            "Brand": "Review",
+            "Brand": "Wellensteyn",
             "Description": "Jeansjacke mit Kapuze 2",
-            "PriceRegular": "89,95 €",
-            "PriceSale": "",
-            "PricePercentage": "",
-            "ImageOriginal": "http://www.fashionid.de/media/411/gipsy-lederjacke-mit-stehkragen-stein-8955750055966f0ec0f0.png"
+            "PriceRegular": "129,95 €",
+            "PriceSale": "89,95 €",
+            "PricePercentage": "30%",
+            "ImageOriginal": "http://www.fashionid.de/media/898/wellensteyn-leichte-jacke-mit-taillenguertel-bordeaux-rot-8963929931806f0ec0f0.png",
+            "ImageAlt": "GOOSECRAFT Lederjacke mit Reißverschluss-Applikation",
+            "ImageHover": "http://www.fashionid.de/media/007/wellensteyn-leichte-jacke-mit-taillenguertel-bordeaux-rot-8963930259486f0ec0f0.jpg",
+            "Stars": "4",
+            "ColorSwatches": [
+                {
+                    "ColorSwatchLink": "http://www.fashionid.de/wellensteyn/damen-leichte-jacke-mit-taillenguertel-8971146_10/",
+                    "ColorSwatchImage": "http://www.fashionid.de/media/427/wellensteyn-leichte-jacke-mit-taillenguertel-anthrazit-8960021364766f013013.jpg",
+                    "ColorSwatchImageAlt": "Bordeaux Rot"
+                },
+                {
+                    "ColorSwatchLink": "http://www.fashionid.de/wellensteyn/damen-leichte-jacke-mit-taillenguertel-8971144_10/",
+                    "ColorSwatchImage": "http://www.fashionid.de/media/427/wellensteyn-leichte-jacke-mit-taillenguertel-anthrazit-8960021364766f013013.jpg",
+                    "ColorSwatchImageAlt": "Anthrazit"
+                },
+                {
+                    "ColorSwatchLink": "http://www.fashionid.de/wellensteyn/damen-leichte-jacke-mit-taillenguertel-8971147_10/",
+                    "ColorSwatchImage": "http://www.fashionid.de/media/083/wellensteyn-leichte-jacke-mit-taillenguertel-cognac-8963930587166f013013.jpg",
+                    "ColorSwatchImageAlt": "Cognac"
+                },
+                {
+                    "ColorSwatchLink": "http://www.fashionid.de/wellensteyn/damen-leichte-jacke-mit-taillenguertel-8971145_10/",
+                    "ColorSwatchImage": "http://www.fashionid.de/media/382/wellensteyn-leichte-jacke-mit-taillenguertel-hellblau-8960021757982f013013.jpg",
+                    "ColorSwatchImageAlt": "Hellblau"
+                },
+                {
+                    "ColorSwatchLink": "http://www.fashionid.de/wellensteyn/damen-leichte-jacke-mit-taillenguertel-8971148_10/",
+                    "ColorSwatchImage": "http://www.fashionid.de/media/404/wellensteyn-leichte-jacke-mit-taillenguertel-olivgruen-8963930980382f013013.jpg",
+                    "ColorSwatchImageAlt": "Olivgrün"
+                }
+            ]
         },
         {
             "ArticleURL": "../../selected-homme/herren-t-shirt-mit-v-ausschnitt-8877392_10/",
-            "New": false,
+            "New": true,
             "Brand": "Review",
             "Description": "Jeansjacke mit Kapuze 1",
-            "PriceRegular": "89,95 €",
+            "PriceRegular": "189,95 €",
             "PriceSale": "",
             "PricePercentage": "",
-            "ImageOriginal": "http://www.fashionid.de/media/221/wellensteyn-schneezauber-jacke-aus-wetterbestaendigem-material-schwarz-8935387299870f0ec0f0.png"
+            "ImageOriginal": "http://www.fashionid.de/media/964/goosecraft-lederjacke-mit-reissverschluss-applikation-schwarz-8958989238302f0ec0f0.png",
+            "ImageAlt": "GOOSECRAFT Lederjacke mit Reißverschluss-Applikation",
+            "ImageHover": "http://www.fashionid.de/media/855/goosecraft-lederjacke-mit-reissverschluss-applikation-schwarz-8958989565982f0ec0f0.jpg",
+            "Stars": "4",
+            "ColorSwatches": [
+                {
+                    "ColorSwatchLink": "http://www.fashionid.de/wellensteyn/damen-leichte-jacke-mit-taillenguertel-8971147_10/",
+                    "ColorSwatchImage": "http://www.fashionid.de/media/083/wellensteyn-leichte-jacke-mit-taillenguertel-cognac-8963930587166f013013.jpg",
+                    "ColorSwatchImageAlt": "Cognac"
+                },
+                {
+                    "ColorSwatchLink": "http://www.fashionid.de/wellensteyn/damen-leichte-jacke-mit-taillenguertel-8971145_10/",
+                    "ColorSwatchImage": "http://www.fashionid.de/media/382/wellensteyn-leichte-jacke-mit-taillenguertel-hellblau-8960021757982f013013.jpg",
+                    "ColorSwatchImageAlt": "Hellblau"
+                },
+                {
+                    "ColorSwatchLink": "http://www.fashionid.de/wellensteyn/damen-leichte-jacke-mit-taillenguertel-8971148_10/",
+                    "ColorSwatchImage": "http://www.fashionid.de/media/404/wellensteyn-leichte-jacke-mit-taillenguertel-olivgruen-8963930980382f013013.jpg",
+                    "ColorSwatchImageAlt": "Olivgrün"
+                }
+            ]
         },
         {
             "ArticleURL": "../../selected-homme/herren-t-shirt-mit-v-ausschnitt-8877392_10/",
             "New": false,
-            "Brand": "Review",
+            "Brand": "Wellensteyn",
             "Description": "Jeansjacke mit Kapuze 2",
-            "PriceRegular": "89,95 €",
-            "PriceSale": "",
-            "PricePercentage": "",
-            "ImageOriginal": "http://www.fashionid.de/media/810/khujo-jacke-mit-beschichtetem-aermel-besatz-marineblau-8974106624030f0ec0f0.png"
+            "PriceRegular": "129,95 €",
+            "PriceSale": "89,95 €",
+            "PricePercentage": "30%",
+            "ImageOriginal": "http://www.fashionid.de/media/898/wellensteyn-leichte-jacke-mit-taillenguertel-bordeaux-rot-8963929931806f0ec0f0.png",
+            "ImageAlt": "GOOSECRAFT Lederjacke mit Reißverschluss-Applikation",
+            "ImageHover": "http://www.fashionid.de/media/007/wellensteyn-leichte-jacke-mit-taillenguertel-bordeaux-rot-8963930259486f0ec0f0.jpg",
+            "Stars": "4",
+            "ColorSwatches": [
+                {
+                    "ColorSwatchLink": "http://www.fashionid.de/wellensteyn/damen-leichte-jacke-mit-taillenguertel-8971146_10/",
+                    "ColorSwatchImage": "http://www.fashionid.de/media/427/wellensteyn-leichte-jacke-mit-taillenguertel-anthrazit-8960021364766f013013.jpg",
+                    "ColorSwatchImageAlt": "Bordeaux Rot"
+                },
+                {
+                    "ColorSwatchLink": "http://www.fashionid.de/wellensteyn/damen-leichte-jacke-mit-taillenguertel-8971144_10/",
+                    "ColorSwatchImage": "http://www.fashionid.de/media/427/wellensteyn-leichte-jacke-mit-taillenguertel-anthrazit-8960021364766f013013.jpg",
+                    "ColorSwatchImageAlt": "Anthrazit"
+                },
+                {
+                    "ColorSwatchLink": "http://www.fashionid.de/wellensteyn/damen-leichte-jacke-mit-taillenguertel-8971147_10/",
+                    "ColorSwatchImage": "http://www.fashionid.de/media/083/wellensteyn-leichte-jacke-mit-taillenguertel-cognac-8963930587166f013013.jpg",
+                    "ColorSwatchImageAlt": "Cognac"
+                },
+                {
+                    "ColorSwatchLink": "http://www.fashionid.de/wellensteyn/damen-leichte-jacke-mit-taillenguertel-8971145_10/",
+                    "ColorSwatchImage": "http://www.fashionid.de/media/382/wellensteyn-leichte-jacke-mit-taillenguertel-hellblau-8960021757982f013013.jpg",
+                    "ColorSwatchImageAlt": "Hellblau"
+                },
+                {
+                    "ColorSwatchLink": "http://www.fashionid.de/wellensteyn/damen-leichte-jacke-mit-taillenguertel-8971148_10/",
+                    "ColorSwatchImage": "http://www.fashionid.de/media/404/wellensteyn-leichte-jacke-mit-taillenguertel-olivgruen-8963930980382f013013.jpg",
+                    "ColorSwatchImageAlt": "Olivgrün"
+                }
+            ]
         },
         {
             "ArticleURL": "../../selected-homme/herren-t-shirt-mit-v-ausschnitt-8877392_10/",
-            "New": false,
+            "New": true,
             "Brand": "Review",
             "Description": "Jeansjacke mit Kapuze 1",
-            "PriceRegular": "89,95 €",
+            "PriceRegular": "189,95 €",
             "PriceSale": "",
             "PricePercentage": "",
-            "ImageOriginal": "http://www.fashionid.de/media/728/review-jeansjacke-mit-kapuze-jeans-8964248829982f0ec0f0.png"
+            "ImageOriginal": "http://www.fashionid.de/media/964/goosecraft-lederjacke-mit-reissverschluss-applikation-schwarz-8958989238302f0ec0f0.png",
+            "ImageAlt": "GOOSECRAFT Lederjacke mit Reißverschluss-Applikation",
+            "ImageHover": "http://www.fashionid.de/media/855/goosecraft-lederjacke-mit-reissverschluss-applikation-schwarz-8958989565982f0ec0f0.jpg",
+            "Stars": "4",
+            "ColorSwatches": [
+                {
+                    "ColorSwatchLink": "http://www.fashionid.de/wellensteyn/damen-leichte-jacke-mit-taillenguertel-8971147_10/",
+                    "ColorSwatchImage": "http://www.fashionid.de/media/083/wellensteyn-leichte-jacke-mit-taillenguertel-cognac-8963930587166f013013.jpg",
+                    "ColorSwatchImageAlt": "Cognac"
+                },
+                {
+                    "ColorSwatchLink": "http://www.fashionid.de/wellensteyn/damen-leichte-jacke-mit-taillenguertel-8971145_10/",
+                    "ColorSwatchImage": "http://www.fashionid.de/media/382/wellensteyn-leichte-jacke-mit-taillenguertel-hellblau-8960021757982f013013.jpg",
+                    "ColorSwatchImageAlt": "Hellblau"
+                },
+                {
+                    "ColorSwatchLink": "http://www.fashionid.de/wellensteyn/damen-leichte-jacke-mit-taillenguertel-8971148_10/",
+                    "ColorSwatchImage": "http://www.fashionid.de/media/404/wellensteyn-leichte-jacke-mit-taillenguertel-olivgruen-8963930980382f013013.jpg",
+                    "ColorSwatchImageAlt": "Olivgrün"
+                }
+            ]
         },
         {
             "ArticleURL": "../../selected-homme/herren-t-shirt-mit-v-ausschnitt-8877392_10/",
             "New": false,
-            "Brand": "Review",
+            "Brand": "Wellensteyn",
             "Description": "Jeansjacke mit Kapuze 2",
-            "PriceSale": "79,95 €",
-            "PriceRegular": "89,95 €",
-            "PricePercentage": "-50%",
-            "ImageOriginal": "http://www.fashionid.de/media/221/wellensteyn-schneezauber-jacke-aus-wetterbestaendigem-material-schwarz-8935387299870f0ec0f0.png"
-        },
-        {
-            "ArticleURL": "../../selected-homme/herren-t-shirt-mit-v-ausschnitt-8877392_10/",
-            "New": false,
-            "Brand": "Review",
-            "Description": "Jeansjacke mit Kapuze 1",
-            "PriceSale": "79,95 €",
-            "PriceRegular": "89,95 €",
-            "PricePercentage": "-50%",
-            "ImageOriginal": "http://www.fashionid.de/media/728/review-jeansjacke-mit-kapuze-jeans-8964248829982f0ec0f0.png"
-        },
-        {
-            "ArticleURL": "../../selected-homme/herren-t-shirt-mit-v-ausschnitt-8877392_10/",
-            "New": false,
-            "Brand": "Review",
-            "Description": "Jeansjacke mit Kapuze 2",
-            "PriceSale": "79,95 €",
-            "PriceRegular": "89,95 €",
-            "PricePercentage": "-50%",
-            "ImageOriginal": "http://www.fashionid.de/media/221/wellensteyn-schneezauber-jacke-aus-wetterbestaendigem-material-schwarz-8935387299870f0ec0f0.png"
-        },
-        {
-            "ArticleURL": "../../selected-homme/herren-t-shirt-mit-v-ausschnitt-8877392_10/",
-            "New": false,
-            "Brand": "Review",
-            "Description": "Jeansjacke mit Kapuze 3",
-            "PriceSale": "79,95 €",
-            "PriceRegular": "89,95 €",
-            "PricePercentage": "-50%",
-            "ImageOriginal": "http://www.fashionid.de/media/221/wellensteyn-schneezauber-jacke-aus-wetterbestaendigem-material-schwarz-8935387299870f0ec0f0.png"
-        },
-        {
-            "ArticleURL": "../../selected-homme/herren-t-shirt-mit-v-ausschnitt-8877392_10/",
-            "New": false,
-            "Brand": "Review",
-            "Description": "Jeansjacke mit Kapuze 2",
-            "PriceSale": "79,95 €",
-            "PriceRegular": "89,95 €",
-            "PricePercentage": "-50%",
-            "ImageOriginal": "http://www.fashionid.de/media/544/gipsy-lederjacke-im-biker-look-schwarz-8954098941982f0ec0f0.png"
+            "PriceRegular": "129,95 €",
+            "PriceSale": "89,95 €",
+            "PricePercentage": "30%",
+            "ImageOriginal": "http://www.fashionid.de/media/898/wellensteyn-leichte-jacke-mit-taillenguertel-bordeaux-rot-8963929931806f0ec0f0.png",
+            "ImageAlt": "GOOSECRAFT Lederjacke mit Reißverschluss-Applikation",
+            "ImageHover": "http://www.fashionid.de/media/007/wellensteyn-leichte-jacke-mit-taillenguertel-bordeaux-rot-8963930259486f0ec0f0.jpg",
+            "Stars": "4",
+            "ColorSwatches": [
+                {
+                    "ColorSwatchLink": "http://www.fashionid.de/wellensteyn/damen-leichte-jacke-mit-taillenguertel-8971146_10/",
+                    "ColorSwatchImage": "http://www.fashionid.de/media/427/wellensteyn-leichte-jacke-mit-taillenguertel-anthrazit-8960021364766f013013.jpg",
+                    "ColorSwatchImageAlt": "Bordeaux Rot"
+                },
+                {
+                    "ColorSwatchLink": "http://www.fashionid.de/wellensteyn/damen-leichte-jacke-mit-taillenguertel-8971144_10/",
+                    "ColorSwatchImage": "http://www.fashionid.de/media/427/wellensteyn-leichte-jacke-mit-taillenguertel-anthrazit-8960021364766f013013.jpg",
+                    "ColorSwatchImageAlt": "Anthrazit"
+                },
+                {
+                    "ColorSwatchLink": "http://www.fashionid.de/wellensteyn/damen-leichte-jacke-mit-taillenguertel-8971147_10/",
+                    "ColorSwatchImage": "http://www.fashionid.de/media/083/wellensteyn-leichte-jacke-mit-taillenguertel-cognac-8963930587166f013013.jpg",
+                    "ColorSwatchImageAlt": "Cognac"
+                },
+                {
+                    "ColorSwatchLink": "http://www.fashionid.de/wellensteyn/damen-leichte-jacke-mit-taillenguertel-8971145_10/",
+                    "ColorSwatchImage": "http://www.fashionid.de/media/382/wellensteyn-leichte-jacke-mit-taillenguertel-hellblau-8960021757982f013013.jpg",
+                    "ColorSwatchImageAlt": "Hellblau"
+                },
+                {
+                    "ColorSwatchLink": "http://www.fashionid.de/wellensteyn/damen-leichte-jacke-mit-taillenguertel-8971148_10/",
+                    "ColorSwatchImage": "http://www.fashionid.de/media/404/wellensteyn-leichte-jacke-mit-taillenguertel-olivgruen-8963930980382f013013.jpg",
+                    "ColorSwatchImageAlt": "Olivgrün"
+                }
+            ]
         }
-    ]
+   ]
 }
