@@ -17,18 +17,12 @@ header {
         }
     }
 
-
     .header-bar {
         @include clearfix();
-        //@include transition-property(height);
-        //@include transition-duration(2s);
-        //@include transition-timing-function(ease-in);
-        //margin-bottom: 10px;
         min-height: 30px;
         background-color: #eaeaea;
 
         .puc-box {
-
             border: 1px solid #eaeaea;
             border-bottom: none;
             padding: 5px 12px 8px 11px;
@@ -39,7 +33,6 @@ header {
             width: 176px;
 
             @media (min-width: $screen-lg-min) {
-
                 top: -14px;
                 float: left;
                 margin-top: 0;
@@ -102,18 +95,13 @@ header {
 
     .branding {
         margin-top: 10px;
-        //margin-top: 0;
-        //float: left;
     }
 
     .search-form {
         margin-top: 15px;
         margin-bottom: 15px;
-        //float: left;
-        //margin-left: 100px;
 
         .search-field {
-            //width: 262px;
             border-right: none;
             border-top: 1px solid #dadada;
             border-left: 1px solid #dadada;
@@ -143,11 +131,8 @@ header {
         margin-top: 5px;
         margin-bottom: 0;
 
-
         @media (min-width: $screen-md-min) {
-
             text-align: right;
-            //margin-right: $grid-gutter-width/2;
         }
 
         li,
@@ -173,11 +158,10 @@ header {
 
 
         @media (min-width: $screen-md-min) and (max-width: $screen-md-max) {
-//        @media (min-width: $screen-sm-min) and (max-width: $screen-sm-max) {
-//        @media (max-width: $screen-xs-max) {
             position: relative;
             top: 0;
         }
+
         @media (max-width: $screen-sm-max) {
             position: relative;
             top: -25px;
@@ -190,30 +174,16 @@ header {
             margin-bottom: 0;
         }
 
-
-
-
-
-
         .my-cart--link {
-
-            //color: #FFF;
             cursor: pointer;
             display: block;
             line-height: 24px;
-//            height: 54px;
-
 
             .my-cart--label {
                 display: inline-block;
                 font-size: 16px;
-//                line-height: 59px;
-                //position: relative;
-                //right: -11px;
-                //top: -10px;
                 color: #353535;
                 margin-right: 10px;
-
             }
 
             .my-cart--quantity {
@@ -224,37 +194,12 @@ header {
                 background-repeat: no-repeat;
                 font-size: 12px;
                 font-weight: bold;
-                //position: absolute;
-                //right: -2px;
-                //top: -8px;
-//                height: 48px;
-//                line-height: 48px;
                 text-align: center;
-//                width: 31px;
                 color: #fff;
                 padding: 10px;
-
             }
-
         }
     }
-}
-
-
-
-
-
-
-
-
-
-
-.SuperBarIcon {
-    margin-top: -1px;
-}
-
-#SuperBar .SuperBarIcon:last-child {
-    margin: -1px 0 0 0;
 }
 
 .super-bar .super-bar--entry a {
@@ -271,133 +216,6 @@ header {
     background-image: url('http://fashionid.de/securemedia/f7837a18916f01519d2ce9edffeba5017b95dbb308976c7efb6515539ad9dadd809371531cb52ed4909a75a4f0f4fa007a49ac321c75ece91df7d91488d449d3/sys_master/8970832936990.png/mm_move.png');
 }
 
-
-
 .super-bar--entry__hotline > a {
     background-image: url('http://fashionid.de/securemedia/7392fe93598c75b1ca3044a611328d267fc316c52ea8c316c6c0b214bc044f5017fead6396a067c25ccf4f25ec2d0c6fa7b9105d452c596b623eb7fb5c9bcd1d/sys_master/8970833395742.png/mm_phone.png');
 }
-
-
-/*
-#backgroundBar {
-    height: 30px;
-    background-color: #eaeaea;
-    width: 100%;
-    position: absolute;
-    top: 61px;
-}
-
-#LinkBar {
-    position: absolute;
-    display: inline-block;
-    right: 0px;
-    top: 96px;
-    letter-spacing: normal;
-    word-spacing: normal;
-    font-size: 11px;
-    font-weight: bold;
-}
-
-#LinkBar li, #LinkBar a {
-    color: #002C65;
-    display: inline-block;
-    list-style: none;
-}
-
-#LinkBar li:first-child ~ li:before {
-    margin-right: 4px;
-    content: '|';
-}
-
-.PageContainer > div.Header form.Search {
-    margin-right: -153px;
-    top: 112px !important;
-    right: 50%;
-}
-
-.StandardCMSImage.component-header-fashionid-image {
-    position: absolute;
-    top: 109px;
-    cursor: pointer;
-}
-
-.PageContainer > .Header .Breadcrumbs {
-    top: 200px;
-}
-
-.MyAccount, .MyStyle {
-    display: none !important;
-}
-
-.MyCart {
-    position: relative;
-    top: -80px;
-}
-
-.PageContainer > .Header {
-    height: 210px;
-}
-
-.Header .BackToShop {
-    top: 130px !important;
-}
-
-.PageContainer > div.Header .header-menu {
-    top: 160px !important;
-    */
-/*border-top: 5px solid #002c65;*//*
-
-}
-
-// second
-
-.SaleLink span {
-    color: #c50000;
-}
-
-.ActionBar {
-    background: #002C65 !important;
-}
-
-.StandardCMSParagraph.component-header-disclaimer {
-    font-size: 12px !important;
-    line-height: 15px !important;
-    padding: 4px 0 !important;
-    color: #6c6c6c;
-}
-
-.StandardCMSParagraph.component-header-disclaimer > a {
-    color: #6c6c6c;
-}
-
-.StandardCMSParagraph.component-header-trusted-shop a span img {
-    top: 19px !important;
-}
-
-.PageContainer > .Header .MyAccount {
-    top: 73px !important;
-}
-
-.PageContainer > .Header .Search {
-    top: 95px !important;
-}
-
-.PageContainer > .Header .MyStyle {
-    top: 142px !important;
-}
-
-.PageContainer > .Header .MyCart .LinkCart {
-    top: 134px !important;
-}
-
-.PageContainer > .Header .header-menu {
-    top: 142px !important;
-}
-
-.BackToShop {
-    top: 79px !important;
-}
-
-.MiniCart {
-    top: 170px !important;
-}*/

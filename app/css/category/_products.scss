@@ -15,7 +15,6 @@ $color-red: #ac2925;
         display: block;
         border: 1px solid $color-background;
 
-
         &:hover {
             text-decoration: none;
         }
@@ -97,8 +96,6 @@ $color-red: #ac2925;
             color: #6c6c6c;
             line-height: 1.4;
         }
-
-
     }
 
     .info {
@@ -145,5 +142,4 @@ $color-red: #ac2925;
             float: right;
         }
     }
-
 }
