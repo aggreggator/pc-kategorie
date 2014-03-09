@@ -9,8 +9,6 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width">
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-    <!-- build:css css/vendor.css -->
-    <!-- bower:css -->
 
     <!-- endbower -->
     <!-- endbuild -->
@@ -178,15 +176,14 @@
             <div class="row">
                 <div id="content" class="content col-sm-9 col-xs-12 pull-right">
 
-
                 </div>
                 <div class="sidebar col-sm-3 col-xs-12 pull-left">
                     <div class="facet category" id="facet-specialCategoryFacet">
                         <span class="h2">Jacken</span>
                         <div class="facet-content">
-                            <ol>
+                            <ol class="list-unstyled">
                                 <li>
-                                    <a href="./" class="Selected Recently">Alle<span>&nbsp;(597)</span></a>
+                                    <a href="./" class="Selected Recently">Alle<span >&nbsp;(597)</span></a>
                                 </li>
                                 <li>
                                     <a href="./lederjacken/">Lederjacken<span>&nbsp;(155)</span></a>
@@ -742,7 +739,7 @@
                     {/Stars}
 
                     {?ColorSwatches}
-                    <ul class="list-inline">
+                    <ul class="list-inline category-product-color-swatches">
                         {#ColorSwatches}
                             <li>
                                 <a href="ColorSwatchLink" title="{ColorSwatchImageAlt}"><img src="{ColorSwatchImage}" alt="{ColorSwatchImageAlt}"/></a>
@@ -751,7 +748,7 @@
                     </ul>
                     {/ColorSwatches}
 
-                    <a href="{ArticleURL}" class="btn btn-block category-product-link-button">Zum Produkt</a>
+                    <a href="{ArticleURL}" class="btn btn-default btn-block category-product-link-button">Zum Produkt <span class="glyphicon glyphicon-chevron-right"></a>
                 </div>
             </div>
         </div>
