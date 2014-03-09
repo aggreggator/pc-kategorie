@@ -696,36 +696,67 @@
 <!-- endbuild -->
 </body>
 
-<script type="text/x-template" id="product-tpl">
+<script type="text/x-template" id="category-product-tpl">
     <div class="category-header">
         <div>
-            <h2>{category-name}</h2>
+            <h2>{CategoryName}</h2>
             <div class="category-links">
-                {#category-promote}
-                <a href="{category-promote-link}" title="{category-promote-name}">{category-promote-name}<span class="glyphicon glyphicon-chevron-right"></span></a>
-                {/category-promote}
+                {#CategoryPromote}
+                <a href="{CategoryPromoteLink}" title="{CategoryPromoteName}">{CategoryPromoteName}<span class="glyphicon glyphicon-chevron-right"></span></a>
+                {/CategoryPromote}
             </div>
         </div>
     </div>
     <section id="products">
       <div class="row">
-        {#category-products}
+        {#CategoryProducts}
         <div class="category-product col-lg-3 col-md-4 col-sm-6 col-xs-6">
-            <a href="{ArticleURL}" class="category-product-link">
-                <img src="{Image-Original}" class="product-image" alt="{Image-Alt}" data-hover-src="{Image-Hover}"/>
-                <span class="brand-and-price">
-                    <h3>
-                        <span class="brand">{Brand}</span>
-                        <div class="description">{Description}</div>
-                    </h3>
-                    <span class="regular-price">199,95 €</span>
-                </span>
-            </a>
+            <div class="category-product-wrap">
+                <a href="{ArticleURL}" class="category-product-link">
+                    <img src="{ImageOriginal}" class="product-image" alt="{ImageAlt}" data-hover-src="{ImageHover}"/>
+                    {?New}
+                        <span class="badge new">Neu</span>
+                    {/New}
+                    {?PriceSale}
+                        <span class="badge sale">Sale</span>
+                        <span class="price old">{PriceRegular}</span>
+                        <span class="price reduction">{PricePercentage}</span>
+                    {/PriceSale}
+                    <span class="brand-and-price">
+                        <h3>
+                            <span class="brand">{Brand}</span>
+                            <div class="description">{Description}</div>
+                        </h3>
+                        {?PriceSale}<span class="price sale">{PriceSale}</span>{:else}<span class="price regular">{PriceRegular}</span>{/PriceSale}
+                    </span>
+                </a>
+                <div class="info">
+                    {?Stars}
+                        <div class="stars">
+                            <span class="glyphicon glyphicon-star yellow"></span>
+                            <span class="glyphicon glyphicon-star yellow"></span>
+                            <span class="glyphicon glyphicon-star yellow"></span>
+                            <span class="glyphicon glyphicon-star yellow"></span>
+                            <span class="glyphicon glyphicon-star"></span>
+                        </div>
+                    {/Stars}
+
+                    {?ColorSwatches}
+                    <ul class="list-inline">
+                        {#ColorSwatches}
+                            <li>
+                                <a href="ColorSwatchLink" title="{ColorSwatchImageAlt}"><img src="{ColorSwatchImage}" alt="{ColorSwatchImageAlt}"/></a>
+                            </li>
+                        {/ColorSwatches}
+                    </ul>
+                    {/ColorSwatches}
+
+                    <a href="{ArticleURL}" class="btn btn-block category-product-link-button">Zum Produkt</a>
+                </div>
+            </div>
         </div>
-        {/category-products}
+        {/CategoryProducts}
       </div>
     </section>
 </script>
-
-
 </html>
