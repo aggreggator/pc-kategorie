@@ -1,17 +1,55 @@
+$color-background: #EDEDED;
+
+
 .category-product {
 
 
 
-    .wrap {
-        border: 1px solid #999;
-//        background-color: #ccc;
-        padding: 10px;
+    .category-product-link {
+        display: block;
+        border: 1px solid $color-background;
         margin-bottom: $grid-gutter-width;
+
+        &:hover {
+            text-decoration: none;
+        }
     }
 
     .product-image {
         @include img-responsive();
         max-width: none;
         width: 100%;
+    }
+
+    .brand-and-price {
+
+        padding: 10px;
+        display: block;
+        position: relative;
+        background-color: $color-background;
+
+        h3 {
+            margin: 0;
+            padding: 0;
+        }
+
+        .brand {
+            font-size: 14px;
+            font-style: italic;
+            color: #6c6c6c;
+        }
+
+        .description{
+            font-size: 12px;
+            color: #6c6c6c;
+        }
+
+        .regular-price {
+            position: absolute;
+            top: 0;
+            right: 0;
+            color: #000;
+            font-size: 14px;
+        }
     }
 }

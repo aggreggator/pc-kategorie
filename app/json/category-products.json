@@ -2,16 +2,19 @@
     "category-name": "Jacken",
     "category-promote": [
         {
+            "category-promote-link": "/damen/jacken/outdoorjacken/",
             "category-promote-name": "Outdoorjacken"
         },
         {
+            "category-promote-link": "/damen/jacken/lederjacken/",
             "category-promote-name": "Lederjacken"
         },
         {
+            "category-promote-link": "/damen/jacken/steppjacken/",
             "category-promote-name": "Steppjacken"
         }
     ],
-    "products": [
+    "category-products": [
         {
             "ArticleURL": "../../selected-homme/herren-t-shirt-mit-v-ausschnitt-8877392_10/",
             "New": false,

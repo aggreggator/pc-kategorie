@@ -701,25 +701,28 @@
         <div>
             <h2>{category-name}</h2>
             <div class="category-links">
-                <a href="/damen/jacken/outdoorjacken/" title="Outdoorjacken">Outdoorjacken<span class="glyphicon glyphicon-chevron-right"></span></a>
-                <a href="/damen/jacken/lederjacken/" title="Lederjacken">Lederjacken<span class="glyphicon glyphicon-chevron-right"></span></a>
-                <a href="/damen/jacken/steppjacken/" title="Steppjacken">Steppjacken<span class="glyphicon glyphicon-chevron-right"></span></a>
+                {#category-promote}
+                <a href="{category-promote-link}" title="{category-promote-name}">{category-promote-name}<span class="glyphicon glyphicon-chevron-right"></span></a>
+                {/category-promote}
             </div>
         </div>
     </div>
     <section id="products">
-
-
       <div class="row">
-        {#products}
+        {#category-products}
         <div class="category-product col-lg-3 col-md-4 col-sm-6 col-xs-6">
-            <div class="wrap">
+            <a href="{ArticleURL}" class="category-product-link">
                 <img src="{Image-Original}" class="product-image" alt="{Image-Alt}" data-hover-src="{Image-Hover}"/>
-            <span>{Brand}</span>
-            <span>{Description}</span>
-            </div>
+                <span class="brand-and-price">
+                    <h3>
+                        <span class="brand">{Brand}</span>
+                        <div class="description">{Description}</div>
+                    </h3>
+                    <span class="regular-price">199,95 €</span>
+                </span>
+            </a>
         </div>
-        {/products}
+        {/category-products}
       </div>
     </section>
 </script>
