@@ -317,8 +317,8 @@ module.exports = function (grunt) {
                         '.htaccess',
                         'img/{,*/}*.webp',
                         '{,*/}*.html',
-                        'css/fonts/{,*/}*.*',
-                        'bower_components/bootstrap-sass/vendor/assets/fonts/bootstrap/*.*'
+                        'json/{,*/}*.*',
+                        'fonts/{,*/}*.*'
                     ]
                 }]
             },
