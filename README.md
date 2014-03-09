@@ -3,13 +3,16 @@ PuC-Kategorie-Seite
 
 Für die Installation werden folgende Komponenten benötigt:
 
+* Ruby https://www.ruby-lang.org/en/downloads/ oder http://rubyinstaller.org/ (Win)
 * http://nodejs.org/ (npm - node package manager wird benötigt)
 * git
 
+
 ```sh
+gem update --system
+gem install compass --pre
 npm install -g grunt-cli
 npm install -g bower
-npm install -g compass
 ```
 
 Nach der Installation der genannten Komponenten muss dieses git-repository geclont werden. 
