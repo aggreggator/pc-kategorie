@@ -216,16 +216,21 @@ header {
         @media (max-width: $screen-xs-min) {
         }
 
-        li,
-        a {
-            color: $gray-darker;
+        li {
             display: inline-block;
             list-style: none;
+            a {
+                color: $gray-darker;
+                display: inline-block;
+                padding-right: 0.25em;
+            }
+
         }
 
-        li:first-child ~ li:before {
-            margin-right: 4px;
-            content: '|';
+        li:first-child  ~ li a:before {
+            margin-right: 0.25em;
+            border-left: 1px solid #999;
+            content: ' ';
         }
     }
 
