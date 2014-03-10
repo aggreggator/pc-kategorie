@@ -1,10 +1,20 @@
+.nav-main {
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 3em;
+
+    @media (max-width: $grid-float-breakpoint) {
+        margin-bottom: 1em;
+    }
+}
+
+
 .navbar-puc {
     background-color: transparent;
     border: 0;
     margin-left: -$grid-gutter-width/2;
     margin-right: -$grid-gutter-width/2;
     min-height: 0;
-    margin-bottom: 50px;
+    margin-bottom: 0px;
 
     @media (max-width: $grid-float-breakpoint) {
         margin-bottom: 0;
@@ -41,6 +51,11 @@
         }
     }
 
+    .navbar-nav {
+        margin-top: 1em;
+        margin-bottom: 1em;
+    }
+
     .navbar-nav > .open > a,
     .navbar-nav > .open > a:hover,
     .navbar-nav > .open > a:focus {
@@ -50,23 +65,27 @@
 }
 
 .breadcrumb {
-    position: absolute;
-    top: 40px;
-    padding: 0;
-    margin-bottom: 16px;
-    text-transform: uppercase;
-    background-color: transparent;
     @include transition-property(top);
     @include transition-duration(1s);
     @include transition-timing-function(ease-in);
+    position: absolute;
+    top: 5em;
+    padding: 0;
+    text-transform: uppercase;
+    background-color: transparent;
 
     @media (max-width: $grid-float-breakpoint) {
-        top: 20px;
+        top: 1em;
+        z-index: 120;
     }
 
     a,
     & > .active {
         color: #666;
+    }
+
+    .glyphicon.glyphicon-home {
+        margin-right: 0.5em;
     }
 }
 

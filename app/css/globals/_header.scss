@@ -5,6 +5,7 @@ header {
         padding: 10px 10px 10px 30px;
         margin-bottom: 0;
         color: #6C6C6C;
+        font-size: 0.875em;
         background: url('http://www.fashionid.de/securemedia/e16fb5e27ce33327b3d1dca10c1136cc4098008565e1222516df75a14eded64b229e944171c0e1d6ef8e511308082b3cbbdc4fbef6b5bfbe5242276ada72063e/sys_master/8971291394078.png/mm_info_new.png') 0 50% no-repeat;
 
         @media (min-width: $screen-lg-min) {
@@ -22,36 +23,41 @@ header {
         min-height: 30px;
         background-color: #eaeaea;
 
+        .header-bar--content {
+            @include clearfix;
+        }
+
         .puc-box {
+            float: left;
             border: 1px solid #eaeaea;
             border-bottom: none;
-            padding: 5px 12px 8px 11px;
+            padding: 0.5em 1em 0.5em 1em;
             background-color: #fff;
             position: relative;
-            margin-top: 6px;
-            left: -11px;
-            width: 176px;
+            margin-top: 1em;
+            left: -1em;
 
             @media (min-width: $screen-lg-min) {
-                top: -14px;
                 float: left;
-                margin-top: 0;
-                margin-bottom: -22px;
+                top: -2.5em;
+                padding-top: 1em;
+                margin-bottom: -2.5em;
             }
 
             .title {
                 display: block;
-                color: #999999;
-                text-transform: uppercase;
-                font-size: 10px;
+                color: $gray-dark;
+                font-size: 0.825em;
                 letter-spacing: normal;
                 text-align: left;
-                line-height: 15px;
+                line-height: 1.625em;
             }
 
             .logo {
+                margin-top: -0.5em;
+                margin-bottom: -26px;
+
                 @media (min-width: $screen-lg-min) {
-                    margin-bottom: -16px;
                 }
             }
         }
@@ -59,42 +65,93 @@ header {
         .super-bar {
             @include clearfix();
             position: relative;
+            top: 0;
             float: left;
             padding: 0;
-            margin-bottom: 6px;
+            margin-bottom: 0;
 
-            @media (min-width: $screen-lg-min) {
+            @media (min-width: $screen-lg-desktop) {
+
+            }
+
+            @media (min-width: $screen-desktop) {
                 float: right;
-                margin-bottom: 0;
+                text-align: right;
+            }
+
+            @media (max-width: $screen-lg-desktop) {
+                margin-top: 1em;
             }
 
             > li {
                 float: left;
-                text-transform: uppercase;
                 list-style: none;
                 color: #999999;
-                font-size: 10px;
-                margin-right: 3px;
 
                 &.super-bar--icon {
-                    margin-top: -1px;
+                    padding-right: 0;
+                    margin-right: 0;
+
+                    a {
+                        position: relative;
+                        top: 3px;
+                        padding: 0;
+                    }
                 }
 
-                &.super-bar--icon:last-child {
+                &.super-bar--icon:last-child a {
                     margin-right: 0;
+                    padding-right: 0;
                 }
 
                 > a {
-                    color: #999;
+                    color: $gray-dark;
                     display: block;
-                    height: 30px;
+//                    line-height: 1.875em;
+                    line-height: 2em;
+                    background-position: right;
+                    background-repeat: no-repeat;
+                    padding: 0.625em 3.25em 0.5em 0;
+                    margin-right: 2em;
+                    font-size: 0.825em;
+
+                    @media (max-width: $screen-desktop) {
+                        font-size: 0.75em;
+                    }
+                }
+
+                &.super-bar--entry__rueckgabe > a {
+                    background-image: url('http://fashionid.de/securemedia/992a96de8d060f30ebfd0a5c56cde7e061fd576256198a3d8de78da7e1e4a1688ae86d52bdb9dddb8975d3b4e02bd257c75cfc3519fefbb189baed58c5d10194/sys_master/8970833264670.png/mm_sixty.png');
+                }
+
+                &.super-bar--entry__versand > a {
+                    background-image: url('http://fashionid.de/securemedia/f7837a18916f01519d2ce9edffeba5017b95dbb308976c7efb6515539ad9dadd809371531cb52ed4909a75a4f0f4fa007a49ac321c75ece91df7d91488d449d3/sys_master/8970832936990.png/mm_move.png');
+                }
+
+                &.super-bar--entry__hotline > a {
+                    background-image: url('http://fashionid.de/securemedia/7392fe93598c75b1ca3044a611328d267fc316c52ea8c316c6c0b214bc044f5017fead6396a067c25ccf4f25ec2d0c6fa7b9105d452c596b623eb7fb5c9bcd1d/sys_master/8970833395742.png/mm_phone.png');
                 }
             }
         }
     }
 
-    .branding {
-        margin-top: 10px;
+    .action-bar {
+        margin-top: 1em;
+
+        .identity {
+            border-bottom: 1px solid #ccc;
+        }
+
+        .nav-main {
+        }
+
+        @media (min-width: $screen-lg-min) {
+            margin-top: 2em;
+        }
+
+        .branding {
+            margin-top: 10px;
+        }
     }
 
     .search-form {
@@ -102,20 +159,16 @@ header {
         margin-bottom: 15px;
 
         .search-field {
-            border-right: none;
-            border-top: 1px solid #dadada;
-            border-left: 1px solid #dadada;
-            border-bottom: 1px solid #dadada;
+            border-width: 1px 0 1px 1px ;
+            border-color: #ddd;
             float: left;
         }
 
         .search-submit {
-            background: url("http://www.fashionid.de/icons.png") no-repeat scroll 2px -1464px transparent;
-            width: 24px;
-            border-right: 1px solid #dadada;
-            border-top: 1px solid #dadada;
-            border-left: none;
-            border-bottom: 1px solid #dadada;
+            background: url("http://www.fashionid.de/icons.png") no-repeat scroll 2px -1461px transparent;
+            width: 30px;
+            border-width: 1px 1px 1px 0;
+            border-color: #ddd;
             text-indent: -9999px;
             float: left;
             display: block;
@@ -124,20 +177,48 @@ header {
     }
 
     .link-bar {
+        @include transition-property(top,margin-bottom);
+        @include transition-duration(1s);
+        @include transition-timing-function(ease-in);
         display: block;
-        font-size: 11px;
-        font-weight: bold;
+        position: absolute;
+        top: -1.5em;
+        right: $grid-gutter-width/2;
+        font-size: 0.875em;
         padding-left: 0;
-        margin-top: 5px;
-        margin-bottom: 0;
+        margin: 0;
+
 
         @media (min-width: $screen-md-min) {
             text-align: right;
+            width: 30em;
+            top: -3em;
+        }
+
+        @media (min-width: $screen-md-max) {
+            position: absolute;
+            right: $grid-gutter-width/2;
+            top: -1.25em;
+            font-size: 0.875em;
+        }
+
+        @media (min-width: $screen-md-min) and (max-width: $screen-md-max) {
+            //top: 1em;
+        }
+
+        @media (max-width: $screen-sm-max) {
+            position: relative;
+            top: 0.5em;
+            right: auto;
+
+        }
+
+        @media (max-width: $screen-xs-min) {
         }
 
         li,
         a {
-            color: #002C65;
+            color: $gray-darker;
             display: inline-block;
             list-style: none;
         }
@@ -149,29 +230,33 @@ header {
     }
 
     .my-cart {
-
-        width: 100%;
-        text-align: right;
         @include transition-property(top,margin-bottom);
         @include transition-duration(1s);
         @include transition-timing-function(ease-in);
+        position: absolute;
 
+        top: 0.75em;
+        width: 100%;
+        text-align: right;
+
+        @media (min-width: $screen-lg-desktop) {
+            right: $grid-gutter-width/2;
+        }
 
         @media (min-width: $screen-md-min) and (max-width: $screen-md-max) {
             position: relative;
-            top: 0;
         }
 
         @media (max-width: $screen-sm-max) {
             position: relative;
-            top: -25px;
-            margin-bottom: -25px;
+            top: -1.375em;
+            margin-bottom: -1.375em;
         }
 
         @media (max-width: $screen-xs-min) {
             position: relative;
-            top: 0;
-            margin-bottom: 0;
+            top: 0.5em;
+            margin-bottom: 1em;
         }
 
         .my-cart--link {
@@ -181,41 +266,28 @@ header {
 
             .my-cart--label {
                 display: inline-block;
-                font-size: 16px;
-                color: #353535;
+                font-size: 1.125em;
+                color: #ac2925;
+                font-weight: bold;
+                padding-top: 0.5em;
                 margin-right: 10px;
             }
 
             .my-cart--quantity {
                 display: inline-block;
+                position: relative;
+                top: -2px;
                 background-color: transparent;
                 background-image: url("http://www.fashionid.de/wicket/resource/com.xyz.web.components.header.XYZHeaderResourcesPackage/resources/images/basketImageClosed.png");
                 background-position: right top;
                 background-repeat: no-repeat;
-                font-size: 12px;
+                font-size: 0.875em;
                 font-weight: bold;
                 text-align: center;
                 color: #fff;
-                padding: 10px;
+                padding: 9px 10px;
             }
         }
     }
 }
 
-.super-bar .super-bar--entry a {
-    background-position: right;
-    background-repeat: no-repeat;
-    padding: 8px 42px 3px 2px;
-}
-
-.super-bar--entry__rueckgabe > a {
-    background-image: url('http://fashionid.de/securemedia/992a96de8d060f30ebfd0a5c56cde7e061fd576256198a3d8de78da7e1e4a1688ae86d52bdb9dddb8975d3b4e02bd257c75cfc3519fefbb189baed58c5d10194/sys_master/8970833264670.png/mm_sixty.png');
-}
-
-.super-bar--entry__versand > a {
-    background-image: url('http://fashionid.de/securemedia/f7837a18916f01519d2ce9edffeba5017b95dbb308976c7efb6515539ad9dadd809371531cb52ed4909a75a4f0f4fa007a49ac321c75ece91df7d91488d449d3/sys_master/8970832936990.png/mm_move.png');
-}
-
-.super-bar--entry__hotline > a {
-    background-image: url('http://fashionid.de/securemedia/7392fe93598c75b1ca3044a611328d267fc316c52ea8c316c6c0b214bc044f5017fead6396a067c25ccf4f25ec2d0c6fa7b9105d452c596b623eb7fb5c9bcd1d/sys_master/8970833395742.png/mm_phone.png');
-}

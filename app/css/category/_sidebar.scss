@@ -1,0 +1,39 @@
+.facet {
+
+    .h2 {
+        display: block;
+        position: relative;
+        top: -0.5em;
+        padding-bottom: 0.25em;
+        border-bottom: 1px solid #ccc;
+        margin-bottom: 0em;
+    }
+
+    &.category {
+
+    }
+
+    .facet-content {
+
+        .list-puc {
+            padding: 0;
+
+            li {
+                a {
+                    display: block;
+                    font-size: 1em;
+                    line-height: 1.5em;
+                    color: $gray-dark;
+
+                    .badge.grey {
+                        font-size: 0.75em;
+                        background-color: #b2b2b2;
+                        float: right;
+                    }
+                }
+            }
+
+        }
+    }
+}
+
